@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 2rem;
+  min-height: 100svh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #15141b;
+  color: #bdbdbd;
+}
+
+h1 {
+  margin-bottom: 2rem;
+  color: #8464c6;
+}
+
+.avatar {
+  width: 256px;
+  border-radius: 20%;
+}
+
+.links {
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+  width: 30ch;
+}
+
+a {
+  color: #54c59f;
+}
+
+.text-about-me {
+  max-width: 55ch;
+  text-align: center;
+}
+
+.text-footer {
+  margin-top: 4rem;
+  text-align: center;
+  color: #6d6d6d;
+}
