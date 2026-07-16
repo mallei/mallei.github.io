@@ -1,9 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Cascadia+Code:ital,wght@0,200..700;1,200..700&display=swap");
+
 * {
   margin: 0;
   box-sizing: border-box;
 }
 
 body {
+  font-family: "Cascadia Code", sans-serif;
   padding: 2rem;
   min-height: 100svh;
   display: flex;
@@ -34,8 +37,13 @@ a {
   color: #54c59f;
 }
 
+a:hover {
+  text-decoration-style: dashed;
+  color: color-mix(in srgb, #54c59f, black 15%);
+}
+
 .text-about-me {
-  max-width: 55ch;
+  max-width: 50ch;
   text-align: center;
 }
 
