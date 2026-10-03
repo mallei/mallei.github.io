@@ -1,0 +1,81 @@
+:root {
+  --background-color: #000;
+  --foreground-color: #e5e5e5;
+  --foreground-secondary-color: #7f7f7f;
+  --link-color: #cdcd00;
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--foreground-color);
+  font-family: monospace;
+  font-size: 1.3em;
+}
+
+::selection {
+  background-color: var(--foreground-color);
+  color: var(--background-color);
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  color: var(--link-color);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  gap: 3em;
+  margin-top: 2em;
+  margin-bottom: 6em;
+}
+
+header a:hover {
+  font-weight: 900;
+  text-decoration: none;
+}
+
+.banner {
+  text-align: center;
+  margin-bottom: 3em;
+}
+
+.avatar {
+  width: 35%;
+  display: block;
+  margin: auto;
+  margin-bottom: 1.8em;
+  clip-path: polygon(
+    50% 0%,
+    90% 20%,
+    100% 60%,
+    75% 100%,
+    25% 100%,
+    0% 60%,
+    10% 20%
+  );
+}
+
+blockquote {
+  margin-top: 2em;
+  color: var(--foreground-secondary-color);
+}
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25em;
+}
